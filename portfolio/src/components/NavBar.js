@@ -1,6 +1,7 @@
 import React from 'react';
 import linkedin from '../assets/linkedin.png';
 import github from '../assets/github.png';
+import './NavBar.css';
 
 
 const NavBar = () => {
@@ -8,7 +9,8 @@ const NavBar = () => {
     <>
         <header>
             <nav>
-                <ul>
+                <p className='initials'>RM</p>
+                <ul className='nav-links'>
                     <a href="#home">
                         <li>Home</li>
                     </a>
@@ -28,8 +30,10 @@ const NavBar = () => {
                         <li>Contact</li>
                     </a>
                 </ul>
-                <a href="https://www.linkedin.com/in/robert-morison"><img src={linkedin} alt='linkedin logo'></img></a>
-                <a href="https://github.com/RobMorison"><img src={github} alt='github logo'></img></a>
+                <div className="logos">
+                    <a href="https://www.linkedin.com/in/robert-morison"><img src={linkedin} alt='linkedin logo' width={50}></img></a>
+                    <a href="https://github.com/RobMorison"><img src={github} alt='github logo' width={50}></img></a>
+                </div>
             </nav>
         </header>
     </>
