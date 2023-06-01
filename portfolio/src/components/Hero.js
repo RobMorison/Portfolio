@@ -10,8 +10,8 @@ const Hero = () => {
             <p>Incididunt minim non aliquip sit nisi fugiat excepteur nostrud eiusmod qui nisi reprehenderit adipisicing. Ut ex do minim eiusmod exercitation ut aute voluptate cupidatat exercitation eiusmod incididunt. Cillum laboris occaecat occaecat duis consequat reprehenderit deserunt anim duis aute.</p>
             <p>Ipsum dolor cillum elit non pariatur laborum sit.</p>
                 <div className='bio'>
-                    <span className='name'>Rob Morison</span>
-                    <span>Full Stack Developer</span>
+                    <p className='name'>Rob Morison</p>
+                    <p>Full Stack Developer</p>
                 </div>
         </div>
         </>
