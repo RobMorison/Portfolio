@@ -1,0 +1,17 @@
+.hero {
+    /* background-image: url("../assets/code.jpg"); */
+    background-size: cover;
+    color: black;
+}
+
+.bio {
+    
+    color: black;  
+
+}
+
+.name {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
