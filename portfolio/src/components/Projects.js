@@ -1,5 +1,7 @@
 import React from 'react';
 import './Projects.css';
+import SectionHeader from './SectionHeader';
+import ProjectCard from './ProjectCard';
 
 const projectsData = [
     {
@@ -22,7 +24,14 @@ const projectsData = [
 
 const Projects = () => {
     return ( 
-        <h1>Projects</h1>
+        <section>
+            <SectionHeader title="Projects"/>
+            <div className="project-grid">
+                {projectsData.map(project => {
+                    return<ProjectCard name={project.name} link={project.link}/>;
+                })}
+            </div>
+        </section>
      );
 }
  
