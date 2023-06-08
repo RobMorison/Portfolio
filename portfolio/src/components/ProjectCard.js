@@ -1,10 +1,15 @@
 import React from 'react';
+import { Link } from 'react'
 
 const ProjectCard = ({name, link}) => {
+
+
+    console.log(link)
     return ( 
         <article className='product-card'>
             <h3>{name}</h3>
-            <p>{link}</p>
+            <a href={link}>Project link</a>
+            
         </article>
      );
 }
