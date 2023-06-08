@@ -1,7 +1,10 @@
+:root {
+    background-color: black;
+}
 .hero {
     background-image: url("../assets/code.jpg");
     background-size: cover;
-    color: black;
+    color: white;
 }
 
 .bio {
