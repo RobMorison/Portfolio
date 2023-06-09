@@ -1,9 +1,12 @@
-:root {
-    background-color: black;
-}
+
 .hero {
     background-image: url("../assets/code.jpg");
-    background-size: cover;
+    background-size: 100%;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    margin: .5rem;
     color: white;
 }
 

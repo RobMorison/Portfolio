@@ -1,14 +1,14 @@
 import React from 'react';
 import './ProjectCard.css';
 
-const ProjectCard = ({name, link}) => {
+const ProjectCard = ({name, link, preview}) => {
 
 
     console.log(link)
     return ( 
         <article className='product-card'>
             <h3>{name}</h3>
-            <a href={link}>Project link</a>
+            <a href={link}><img src={preview} alt='project thumbnail' width={250}></img></a>
             
         </article>
      );
