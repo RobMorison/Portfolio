@@ -1,8 +1,15 @@
 .about {
-    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .about-me {
-    color: white;
-    display: block;
+  background-color: lightgrey;
+  width: 350px;
+  border: 15px solid red;
+  padding: 50px;
+  margin: 20px;
+  font-size: larger;
+  font-weight: bolder;
 }
