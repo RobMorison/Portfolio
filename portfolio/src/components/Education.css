@@ -1,8 +1,11 @@
 .education {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
     background-color: black;
     width: 800px;
     border: 3px solid red;
-    padding: 50px;
+    padding: 30px;
     margin: 20px;
     font-size: larger;
     font-weight: bolder;
