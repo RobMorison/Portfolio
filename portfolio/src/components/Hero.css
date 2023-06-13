@@ -8,27 +8,21 @@
     border-top-right-radius: 2rem;
     margin: .5rem;
     color: white;
+    height: 500px;
 }
 
 .bio {
-    color: black;  
-    background-color: red;
-    opacity: 90%;
-    height: 100px; 
-    width: 150px;
-    border: 5px;
-    align-content: center;
-    justify-content: center;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    background-color: black;
+    width: 125px;
+    border: 10px solid red;
+    padding: 25px;
+    margin: 20px;
+    font-size: larger;
+    font-weight: bolder;    
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 
-.name {
-    font-size: x-large;
-    font-weight: bolder;
-    justify-content: center;
-
-}
 

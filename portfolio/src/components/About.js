@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 import selfie from '../assets/selfie.png'
 
+
 const About = () => {
     return ( 
         <><h2>About Me</h2>

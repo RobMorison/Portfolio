@@ -1,6 +1,7 @@
 .about {
     display: flex;
     flex-direction: row;
+    margin-left: 1rem;
     justify-content: space-around;
 }
 
