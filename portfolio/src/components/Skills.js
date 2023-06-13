@@ -4,8 +4,8 @@ import './Skills.css'
 const Skills = () => {
     return ( 
         <>
-        <h2>Skills</h2>
-        <div className='skills'>
+        <h2 id='skills'>Skills</h2>
+        <div className='skills' >
             <div className='languages'>
                 <p>Languages:</p>
                 <div className='grid-container'>
@@ -16,7 +16,7 @@ const Skills = () => {
                         <div class='grid-item'>SQL</div>
                 </div>
             </div>
-            <div>
+            <div className='library'>
                 <p>Libraries & Frameworks</p>
                 <div className='grid-container'>
                     <div class='grid-item'>Django Rest Framework</div>
@@ -25,7 +25,7 @@ const Skills = () => {
                     <div class='grid-item'>Third-Party APIs</div>
                 </div>
             </div>
-            <div>
+            <div className='tools'>
                 <p>Tools:</p>
                 <div className='grid-container'>
                     <div class='grid-item'>Postman</div>

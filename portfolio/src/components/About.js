@@ -5,7 +5,7 @@ import selfie from '../assets/selfie.png'
 
 const About = () => {
     return ( 
-        <><h2>About Me</h2>
+        <><h2 id='about'>About Me</h2>
         <div className='about'>
             <div>
                 <p className='about-me'>

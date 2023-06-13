@@ -33,7 +33,7 @@ const projectsData = [
 
 const Projects = () => {
     return ( 
-        <section>
+        <section id='projects'>
             <SectionHeader title="Projects"/>
             <div className="project-grid">
                 {projectsData.map(project => {

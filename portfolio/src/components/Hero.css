@@ -13,12 +13,13 @@
 
 .bio {
     background-color: black;
-    width: 125px;
-    border: 10px solid red;
-    padding: 25px;
-    margin: 20px;
+    width: 300px;
+    border: 6px solid red;
+    padding: 10px;
     font-size: larger;
-    font-weight: bolder;    
+    font-weight: bolder;
+    box-shadow: 5px 5px 5px whitesmoke;
+    color: white;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     border-top-left-radius: 2rem;

@@ -17,7 +17,15 @@
 .grid-container {
     display: grid;
     grid-template-columns: 10rem 10rem 10rem;
-    grid-column-gap: 5rem;
-    grid-row-gap: 5rem;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
     justify-content: center;
+    justify-items: center;
+    border: 2px solid red;    
+    padding: 1rem;
+    margin: .5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
 }

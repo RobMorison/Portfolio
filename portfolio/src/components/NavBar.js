@@ -8,7 +8,7 @@ const NavBar = () => {
     return ( 
     <>
         <header>
-            <nav>
+            <nav id='navbar'>
                 <p className='initials'>RM</p>
                 <ul className='nav-links'>
                     <a href="#home">

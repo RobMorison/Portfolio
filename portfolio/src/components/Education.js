@@ -6,9 +6,9 @@ import './Education.css'
 const Education = () => {
     return ( 
         <>
-        <h2>Education</h2>
+        <h2 id='education'>Education</h2>
 
-        <div className='ed-container'>
+        <div className='ed-container' >
             <div className='education'>
                 <img src={devcodecamp} alt='devcodecamp logo'></img>
                 <div className="devinfo">
