@@ -1,6 +1,7 @@
 import React, {useRef} from 'react';
 import './Contact.css';
 import emailjs from '@emailjs/browser';
+import SectionHeader from './SectionHeader';
 
 const Contact = () => {
     const form = useRef();
@@ -27,14 +28,15 @@ const Contact = () => {
 
     return ( 
     <>
+
     <section className="contact" id='contact'>
-        <h2>Contact Me!</h2>
+        <SectionHeader title='Contact'/>
             <div className='container'>
                 <form ref={form} onSubmit={sendEmail} className='form'>
                     <input type='text' placeholder='Full Name' name='user_name' required></input>
                     <input type='email' placeholder='Email' name='user_email' required></input>
                     <input type='text' placeholder='Subject' name='subject' required></input>
-                    <textarea name='message' cols='30' rows='10'></textarea>
+                    <textarea name='message' placeholder='Type message here' cols='30' rows='10'></textarea>
                     <button type='submit'>Send Message</button>
                 </form>
             </div>

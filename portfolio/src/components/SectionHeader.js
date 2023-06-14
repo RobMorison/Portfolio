@@ -1,10 +1,14 @@
 import React from 'react';
+import './SectionHeader.css';
 
 const SectionHeader = ({title}) => {
     return ( 
+        <>
         <div className='section-header'>
-            <h2>{title}</h2>
+            <h1>{title}</h1>
         </div>
+        
+        </>
      );
 }
  

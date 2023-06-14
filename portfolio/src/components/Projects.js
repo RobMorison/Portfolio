@@ -35,10 +35,12 @@ const Projects = () => {
     return ( 
         <section id='projects'>
             <SectionHeader title="Projects"/>
-            <div className="project-grid">
-                {projectsData.map(project => {
-                    return<ProjectCard name={project.name} link={project.link} preview={project.preview}/>;
-                })}
+            <div className='project-container'>
+                <div className="project-grid">
+                    {projectsData.map(project => {
+                        return<ProjectCard name={project.name} link={project.link} preview={project.preview}/>;
+                    })}
+                </div>
             </div>
         </section>
      );

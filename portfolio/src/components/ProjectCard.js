@@ -8,7 +8,7 @@ const ProjectCard = ({name, link, preview}) => {
     return ( 
         <article className='product-card'>
             <h3>{name}</h3>
-            <a href={link}><img src={preview} alt='project thumbnail' width={250}></img></a>
+            <a href={link}><img src={preview} alt='project thumbnail' width={300}></img></a>
             
         </article>
      );

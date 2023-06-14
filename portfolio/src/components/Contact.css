@@ -2,14 +2,30 @@
     display: grid;
     flex-direction: column;
     justify-content: center;
-    gap: .5rem;
+    gap: 1rem;
+}
+
+input {
+    padding: 10px 20px;
+    border: 2px solid red;
+}
+
+textarea {
+    padding: 10px 20px;
+    border: 2px solid red;
 }
 
 button {
     color: white;
+    background-color: red;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid red; 
+    box-shadow: 1px 1px 1px whitesmoke;
 }
 
-h2 {
-    color: white;
-    text-decoration-line: underline;
+button:hover {
+    background-color: red;
+    color: black;
+    box-shadow: 1px 1px 1px whitesmoke;
 }
