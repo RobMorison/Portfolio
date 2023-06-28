@@ -2,10 +2,10 @@ import React from 'react';
 import './Projects.css';
 import SectionHeader from './SectionHeader';
 import ProjectCard from './ProjectCard';
-import capstone from '../assets/Capstone.JPG';
-import musicbackend from '../assets/Music_backend.JPG';
-import musicfrontend from '../assets/Music_frontend.JPG';
-import youtube from '../assets/Youtube_clonse.JPG';
+import capstone from '../assets/Capstone.jpg';
+import musicbackend from '../assets/Music_backend.jpg';
+import musicfrontend from '../assets/Music_frontend.jpg';
+import youtube from '../assets/Youtube_clonse.jpg';
 
 
 const projectsData = [
