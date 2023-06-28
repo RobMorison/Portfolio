@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard';
 import capstone from '../assets/Capstone.JPG';
 import musicbackend from '../assets/Music_backend.JPG';
 import musicfrontend from '../assets/Music_frontend.JPG';
-import youtube from '../assets/Youtube_clone.JPG';
+import youtube from '../assets/Youtube_clonse.JPG';
 
 
 const projectsData = [
